@@ -18,7 +18,7 @@ import { DatePicker } from 'antd';
 const { RangePicker } = DatePicker;
 
 class ControlledDatePicker extends React.Component {
-  state = { mode: 'time' };
+  state = { mode: 'year' };
 
   handleOpenChange = (open) => {
     if (open) {
